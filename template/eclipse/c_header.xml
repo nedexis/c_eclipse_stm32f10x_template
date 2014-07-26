@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="false" context="org.eclipse.cdt.core.cHeader.contenttype_context" deleted="false" description="" enabled="true" name="Generic C header">/***************************************************************************//**
+ * @file		
+ * @author  	${user}
+ * @brief       Interface of ${file_base}.
+ * @details     detalis
+ * 
+ * Template version: 1.0.1 (26.07.2014)
+ *
+ * Copyright (C) 2013, 2014 Dejan Ristic
+ *
+ * ${project_name} is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * ${project_name} is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ *//************************************************************************//**
+ * @addtogroup  group 
+ *********************************************************************//** @{ */
+#ifndef ${include_guard_symbol}
+#define ${include_guard_symbol}
+/*_________________________________________________________  Include Files  __*/
+/*_______________________________________________________________  Defines  __*/
+/*_______________________________________________________________  Macro's  __*/
+/*------------------------------------------------------  C++ extern begin  --*/
+#ifdef __cplusplus
+extern "C" {
+#endif
+/*_____________________________________________________________  Data Types  __*/
+/*_______________________________________________________  Global Variables  __*/
+/*____________________________________________________  Function Prototypes  __*/
+
+/** @} *//**********************************************************************/
+#ifdef __cplusplus
+}
+#endif
+/*---------------------------------------------------------  C++ extern end  --*/
+#endif /* ${include_guard_symbol} */</template></templates>

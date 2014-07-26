@@ -72,12 +72,12 @@
 							</tool>
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.557588040" name="Cross ARM C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.1015098831" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/minimum/application/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/minimum/libraries/CMSIS/CoreSupport}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/minimum/libraries/CMSIS/DeviceSupport/ST/STM32F10x}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/minimum/libraries/STM32F10x_StdPeriph_Driver/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/minimum/support/config}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/minimum/support/interrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/c_eclipse_stm32f10x_template/application/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/c_eclipse_stm32f10x_template/support/interrupt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/c_eclipse_stm32f10x_template/support/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/c_eclipse_stm32f10x_template/libraries/STM32F10x_StdPeriph_Driver/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/c_eclipse_stm32f10x_template/libraries/CMSIS/DeviceSupport/ST/STM32F10x}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/c_eclipse_stm32f10x_template/libraries/CMSIS/CoreSupport}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.811926287" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F10X_MD_VL"/>
@@ -91,7 +91,7 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.537635134" name="Cross ARM C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections.2110739111" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths.641546344" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/minimum/support/linker}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/c_eclipse_stm32f10x_template/support/linker}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile.1951061492" name="Script files (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile" valueType="stringList">
 									<listOptionValue builtIn="false" value="stm32_flash.ld"/>
